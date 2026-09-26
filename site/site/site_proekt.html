@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ГеоРеклама — проект по проектной деятельности</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    color: #222;
+    background: #fff;
+  }
+  header {
+    border-bottom: 2px solid #ff7a2f;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
+  h1 { color: #ff7a2f; margin: 0 0 8px; font-size: 28px; }
+  h2 {
+    color: #1a3a6b;
+    margin-top: 35px;
+    border-left: 4px solid #ff7a2f;
+    padding-left: 10px;
+  }
+  h3 { color: #1a3a6b; margin-bottom: 6px; }
+  nav a {
+    color: #1a3a6b;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  nav a:hover { color: #ff7a2f; text-decoration: underline; }
+  .box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px 18px;
+    margin: 12px 0;
+    background: #fafafa;
+  }
+  .box h3 { margin-top: 0; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    text-align: left;
+  }
+  th { background: #f0f4fa; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 5px; }
+  .date { color: #ff7a2f; font-weight: bold; font-size: 14px; }
+  code {
+    background: #f0f0f0;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+  }
+  pre {
+    background: #f0f0f0;
+    padding: 12px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 13px;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    color: #777;
+    font-size: 13px;
+    text-align: center;
+  }
+  a { color: #1a3a6b; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ГеоРеклама</h1>
+  <p>Цифровой агрегатор наружной рекламы с AI-поиском и геоинтерфейсом</p>
+  <nav>
+    <a href="#about">О проекте</a>
+    <a href="#team">Участники</a>
+    <a href="#journal">Журнал</a>
+    <a href="#resources">Ресурсы</a>
+  </nav>
+</header>
+
+<!-- ============ ГЛАВНАЯ ============ -->
+<h2>О проекте</h2>
+<p>
+  «ГеоРеклама» — это цифровая платформа, которая объединяет рекламные поверхности
+  Москвы и Московской области в одном онлайн-интерфейсе. Пользователь может искать
+  билборды, digital-мониторы, транзитную и indoor-рекламу на карте, фильтровать их
+  по типу, локации и периоду, а также подбирать конструкции через AI-поиск по
+  текстовому запросу.
+</p>
+<p>
+  Проект выполняется в рамках дисциплины «Проектная деятельность» студентами
+  Московского Политехнического университета при поддержке АО «Мосэнергосбыт».
+</p>
+
+<div class="box">
+  <h3>Ключевые цифры</h3>
+  <ul>
+    <li>1340+ digital-мониторов</li>
+    <li>10 000+ рекламных поверхностей</li>
+    <li>Снижение CPA до 39%</li>
+    <li>Удешевление заявок до 15 раз по сравнению с контекстом</li>
+  </ul>
+</div>
+
+<h3>Цель проекта</h3>
+<p>
+  Создать единый цифровой геоинтерфейс для поиска, анализа и выбора объектов
+  наружной рекламы с использованием интерактивной карты, многоуровневых фильтров
+  и AI-инструментов.
+</p>
+
+<h3>Задачи проекта</h3>
+<ul>
+  <li>Провести анализ рынка наружной рекламы и выявить потребности рекламодателей.</li>
+  <li>Определить целевые группы и пользовательские сценарии.</li>
+  <li>Структурировать базу рекламных конструкций.</li>
+  <li>Реализовать карту, поиск, фильтры и AI-поиск.</li>
+  <li>Протестировать MVP и улучшить пользовательский опыт.</li>
+</ul>
+
+<h3>Почему это актуально</h3>
+<p>
+  Рынок наружной рекламы активно цифровизируется. Рекламодателям нужен единый
+  онлайн-интерфейс для поиска и сравнения поверхностей. Особенно это важно для
+  локального бизнеса, которому нужна реклама «в нужном месте и в нужное время».
+</p>
+
+<h3>Конкурентное окружение</h3>
+<table>
+  <tr>
+    <th>Платформа</th>
+    <th>Карта</th>
+    <th>AI-поиск</th>
+    <th>Онлайн-бронирование</th>
+  </tr>
+  <tr><td>ГеоРеклама</td><td>Да</td><td>Да</td><td>Да</td></tr>
+  <tr><td>Dron.Digital</td><td>Частично</td><td>Нет</td><td>Да</td></tr>
+  <tr><td>prodigital.ru</td><td>Частично</td><td>Нет</td><td>Да</td></tr>
+  <tr><td>DOOH.RU</td><td>Да</td><td>Нет</td><td>Частично</td></tr>
+  <tr><td>Oohdesk</td><td>Частично</td><td>Нет</td><td>Частично</td></tr>
+</table>
+<p>
+  Вывод: «ГеоРеклама» выигрывает за счёт объединения карты, AI-поиска и детальной
+  фильтрации в одном интерфейсе.
+</p>
+
+<!-- ============ УЧАСТНИКИ ============ -->
+<h2 id="team">Участники</h2>
+
+<div class="box">
+  <h3>Новожилов Дмитрий Павлович</h3>
+  <p><b>Роль:</b> продуктовая аналитика и QA</p>
+  <ul>
+    <li>Анализ рынка наружной рекламы и целевой аудитории</li>
+    <li>Конкурентный анализ (Dron.Digital, prodigital.ru, DOOH.RU, Oohdesk)</li>
+    <li>Мануальное тестирование MVP на стенде dev1.apcollector.ru</li>
+  </ul>
+</div>
+
+<div class="box">
+  <h3>Н.С. Полякова</h3>
+  <p><b>Роль:</b> руководитель проекта</p>
+  <p>Координация команды, приоритизация задач, взаимодействие с заказчиком.</p>
+</div>
+
+<div class="box">
+  <h3>Шабалин Илья Геннадьевич</h3>
+  <p><b>Роль:</b> представитель заказчика (АО «Мосэнергосбыт»)</p>
+  <p>Экспертиза процессов закупки наружной рекламы, обратная связь по MVP.</p>
+</div>
+
+
+
+<!-- ============ ЖУРНАЛ ============ -->
+<h2 id="journal">Журнал</h2>
+
+<div class="box">
+  <p class="date">30.03.2026 — 06.04.2026</p>
+  <h3>Анализ рынка и целевой аудитории</h3>
+  <img src="images/Analiz-celevoj-auditoriju.png" style="max-width:70%;>
+  <p>
+    Изучили рынок наружной рекламы в России. Выяснили, что клиенты всё чаще
+    отказываются от звонков менеджерам в пользу онлайн-платформ. Для малого и
+    среднего бизнеса критически важны прозрачность цен и геотаргетинг. Сформировали
+    профиль идеального пользователя и пользовательские сценарии.
+  </p>
+</div>
+
+<div class="box">
+  <p class="date">06.04.2026 — 13.04.2026</p>
+  <h3>Конкурентный анализ</h3>
+  <img src="images/conc.png" style="max-width:70%;>
+  <p>
+    Изучили ключевых игроков: Dron.Digital, prodigital.ru, DOOH.RU, Oohdesk и
+    классические каталоги. Определили преимущества «ГеоРекламы»: карта, AI-поиск и
+    детальная фильтрация в одном интерфейсе.
+  </p>
+</div>
+
+<div class="box">
+  <p class="date">13.04.2026 — 27.04.2026</p>
+  <h3>Тестирование MVP и баг-репорт</h3>
+  <img src="images/f3.jpg" style="max-width:70%;>
+  <p>
+    Провели мануальное тестирование логики фильтрации. Обнаружили критический баг:
+    при отключении фильтра «DIGITAL» количество точек на карте увеличивалось вместо
+    того, чтобы уменьшаться. Составили баг-репорт и проанализировали причину.
+  </p>
+</div>
+
+<div class="box">
+  <p class="date">27.04.2026 — 16.05.2026</p>
+  <h3>Проектирование исправления</h3>
+  <p>
+    Спроектировали защитный барьер на стороне сервера: если список активных фильтров
+    пуст или равен None, возвращается пустой результат. Добавили проверку города и
+    ускорили поиск через set.
+  </p>
+</div>
+
+<!-- ============ РЕСУРСЫ ============ -->
+<h2 id="resources">Ресурсы</h2>
+
+<h3>Организация-партнёр</h3>
+<ul>
+  <li><a href="https://www.mosenergosbyt.ru/" target="_blank">АО «Мосэнергосбыт» — официальный сайт</a></li>
+</ul>
+
+<h3>Университет</h3>
+<ul>
+  <li><a href="https://mospolytech.ru/sveden/document" target="_blank">Московский Политехнический университет</a></li>
+</ul>
+
+<h3>Технические материалы</h3>
+<ul>
+  <li><a href="https://fastapi.tiangolo.com/" target="_blank">Документация FastAPI</a></li>
+  <li><a href="https://selectel.ru/blog/tutorials/how-to-work-with-branches-in-git-git-branch" target="_blank">Работа с ветками в Git</a></li>
+  <li><a href="https://skyeng.ru/it-industry/it/kak-sozdat-novuyu-vetku-v-github-poshagovoye-rukovodstvo" target="_blank">Как создать ветку на GitHub</a></li>
+</ul>
+
+<h3>Аналитика и материалы проекта</h3>
+<ul>
+  <li>Аналитические отчёты рынка OOH и DOOH рекламы в России</li>
+  <li>Техническая спецификация стенда dev1.apcollector.ru</li>
+  <li>Баг-трекер и журналы тестирования проекта «ГеоРеклама»</li>
+  <li><a href="https://www.mskagency.ru/materials/3511827" target="_blank">Сервис «Узнай Москву» — 300 маршрутов</a></li>
+</ul>
+
+<footer>
+  Проект «ГеоРеклама» · Московский Политех · 2026
+</footer>
+
+</body>
+</html>
